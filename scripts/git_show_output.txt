@@ -1,0 +1,11 @@
+commit d0cd8ab1c0fbec325c095ad1dbd1d04530ad92d1
+Author: Rinorann <galiguzov.da@phystech.edu>
+Date:   Sat Feb 7 15:15:38 2026 +0300
+
+    Reapply "Reapply "xyecoc""
+    
+    This reverts commit 3601d8edabe2b4d8d8b3aef25e16c886e31e16d5.
+
+diff --git a/scripts/xyecoc b/scripts/xyecoc
+new file mode 100644
+index 0000000..e69de29
