@@ -1,0 +1,142 @@
+  181  git init
+  182  git add README.md
+  183  git commit -m "first commit"
+  184  git branch -M main
+  185  git remote add origin https://github.com/Rinorann/bioinformatics.git
+  186  git push -u origin main
+  188  git init
+  189  git add README.md
+  190  git commit -m "first commit"
+  191  git config --global user.email "galiguzov.da@phystech.edu"
+  192  git branch -M main
+  193  git remote add origin https://github.com/Rinorann/bioinformatics.git
+  194  git push -u origin main
+  197  git init
+  200  git add test
+  201  sudo apt install git
+  202  git --version
+  205  git commit -m "first commit"
+  206  git config --global user.name "Rinorann"
+  207  git commit -m "first commit"
+  208  git branch -M main
+  209  git remote add origin https://github.com/Rinorann/bioinformatics.git
+  210  git push -u origin main
+  211  git remote set-url origin git@github.com:Rinorann/bioinformatics.git
+  212  git remote -v
+  213  git push -u origin main
+  214  git remote -v
+  217  git status
+  219  find ~ -type d -name ".git" 2>/dev/null | head -5
+  220  rmdir /home/rinorann/.ssh/.git
+  221  rmdir -f /home/rinorann/.ssh/.git
+  225  git init
+  226  git checkout -b develop
+  229  git add data/samples.tsv
+  230  git commit -m "Add samples.tsv with initial data"
+  231  git log --oneline -5
+  232  git show
+  233  git log
+  234  git remote -v
+  235  git checkout main
+  236  git checkout master
+  237  git checkout Master
+  238  git branch
+  239  git branch -a
+  240  git checkout -b master
+  241  git checkout develop
+  242  git diff
+  243  git log
+  244  git show
+  245  git -v remote
+  246  git remote
+  247  git lof
+  248  git log
+  250  РАЗНИЦА МЕЖДУ git log И git show:
+  251  git log:
+  256    $ git log --oneline -5
+  259    ghi789 Обновлен .gitignore
+  260  git show:
+  265    $ git show abc123
+  272    diff --git a/README.md b/README.md
+  280  - Когда нужно увидеть историю проекта → git log
+  281  - Когда нужно понять что именно изменилось в коммите → git show
+  283  git add diff.file
+  284  git commit -m "Add documentation explaining difference between git log and git show"
+  285  git push origin main
+  286  git pish origin master
+  287  git push origin master
+  288  git push -origin master
+  289  git push -u origin main
+  290  git push -u origin master
+  291  git remote -v
+  292  git remote add origin git@github.com:Rinorann/bioinformatics.git
+  293  git remote -v
+  294  git push -u origin main
+  295  git push -u origin masger
+  296  git push -u origin master
+  297  git checkout develop
+  301  git commit xyecoc
+  303  git commit "xyecoc"
+  304  git commit -m "xyecoc"
+  305  git add xyecoc
+  306  git commit "xyecoc"
+  307  git commit -m "xyecoc"
+  308  git revert
+  309  git log --oneline
+  310  git revert HEAD
+  311  git revert -m HEAD
+  312  git revert HEAD
+  314  git revert
+  315  git revert HEAD
+  316  git show HEAD > git_show_output.txt
+  317  git add git_show_output.txt
+  318  git commit -m "Add git show output file"
+  319  git push origin develop
+  321  git init
+  327  git init
+  328  git clone https://github.com/Weakne55/Bioinformatics305.git
+  335  git remote remove origin
+  336  git remote add origin https://github.com/Rinorann/bioinformatics.git
+  337  git remote -v
+  338  git remote show origin
+  339  git remote
+  347  git commit
+  348  git commit -a
+  353  git checkout -b investigation
+  354  git add infected_reads.txt 
+  355  git commit -m infected_reads.txt 
+  360  git add mini_run.fastq 
+  361  git commit -m
+  362  git commit -m mini_run.fastq 
+  366  git status
+  367  git restore experiment.log
+  368  echo "git restore experiment.log" > command.txt
+  369  git checkout master
+  370  git commit -m Добавил команду
+  371  git commit dobavil commandu
+  372  git commit -m dobavil commandu
+  373  git status
+  374  git add command.txt
+  375  git status
+  376  git commit -m Добавил команду
+  377  git commit -m dobavil
+  384  git add access.log sort.txt
+  385  git commit -m
+  386  git commit
+  387  git commit -m koknuto
+  388  git merge?
+  389  git merge master investigation
+  390  git merge investigation master
+  393  git add genes_fixed.tsv 
+  394  git commit -m koknul
+  401  git checkout cleaning
+  402  git checkout -b cleaning
+  403  git add diskusage.file 
+  404  git commit
+  406  git add bodya.pdf 
+  407  git commit 
+  409  git add forgotten.txt 
+  410  git commit --amend --no-edit
+  413  git checkout master
+  414  git add amend.txt 
+  415  history | grep "git" > report_commands.txt
